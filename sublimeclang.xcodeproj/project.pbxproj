@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE893E691560CCF100F70C7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE893E681560CCF100F70C7D /* UIKit.framework */; };
+		CE893E6B1560CCF100F70C7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE893E6A1560CCF100F70C7D /* Foundation.framework */; };
+		CE893E6D1560CCF100F70C7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE893E6C1560CCF100F70C7D /* CoreGraphics.framework */; };
+		CE893E731560CCF100F70C7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE893E711560CCF100F70C7D /* InfoPlist.strings */; };
+		CE893E751560CCF100F70C7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE893E741560CCF100F70C7D /* main.m */; };
+		CE893E791560CCF100F70C7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE893E781560CCF100F70C7D /* AppDelegate.m */; };
+		CE893E7C1560CCF100F70C7D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE893E7B1560CCF100F70C7D /* FirstViewController.m */; };
+		CE893E7E1560CCF100F70C7D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CE893E7D1560CCF100F70C7D /* first.png */; };
+		CE893E801560CCF100F70C7D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE893E7F1560CCF100F70C7D /* first@2x.png */; };
+		CE893E831560CCF100F70C7D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE893E821560CCF100F70C7D /* SecondViewController.m */; };
+		CE893E851560CCF100F70C7D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CE893E841560CCF100F70C7D /* second.png */; };
+		CE893E871560CCF100F70C7D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE893E861560CCF100F70C7D /* second@2x.png */; };
+		CE893E8A1560CCF100F70C7D /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE893E881560CCF100F70C7D /* FirstViewController.xib */; };
+		CE893E8D1560CCF100F70C7D /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE893E8B1560CCF100F70C7D /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE893E641560CCF100F70C7D /* sublimeclang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sublimeclang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE893E681560CCF100F70C7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE893E6A1560CCF100F70C7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE893E6C1560CCF100F70C7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE893E701560CCF100F70C7D /* sublimeclang-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sublimeclang-Info.plist"; sourceTree = "<group>"; };
+		CE893E721560CCF100F70C7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE893E741560CCF100F70C7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE893E761560CCF100F70C7D /* sublimeclang-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sublimeclang-Prefix.pch"; sourceTree = "<group>"; };
+		CE893E771560CCF100F70C7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE893E781560CCF100F70C7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE893E7A1560CCF100F70C7D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CE893E7B1560CCF100F70C7D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CE893E7D1560CCF100F70C7D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CE893E7F1560CCF100F70C7D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CE893E811560CCF100F70C7D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CE893E821560CCF100F70C7D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CE893E841560CCF100F70C7D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CE893E861560CCF100F70C7D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CE893E891560CCF100F70C7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		CE893E8C1560CCF100F70C7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE893E611560CCF100F70C7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE893E691560CCF100F70C7D /* UIKit.framework in Frameworks */,
+				CE893E6B1560CCF100F70C7D /* Foundation.framework in Frameworks */,
+				CE893E6D1560CCF100F70C7D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE893E591560CCF100F70C7D = {
+			isa = PBXGroup;
+			children = (
+				CE893E6E1560CCF100F70C7D /* sublimeclang */,
+				CE893E671560CCF100F70C7D /* Frameworks */,
+				CE893E651560CCF100F70C7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE893E651560CCF100F70C7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE893E641560CCF100F70C7D /* sublimeclang.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE893E671560CCF100F70C7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE893E681560CCF100F70C7D /* UIKit.framework */,
+				CE893E6A1560CCF100F70C7D /* Foundation.framework */,
+				CE893E6C1560CCF100F70C7D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE893E6E1560CCF100F70C7D /* sublimeclang */ = {
+			isa = PBXGroup;
+			children = (
+				CE893E771560CCF100F70C7D /* AppDelegate.h */,
+				CE893E781560CCF100F70C7D /* AppDelegate.m */,
+				CE893E7A1560CCF100F70C7D /* FirstViewController.h */,
+				CE893E7B1560CCF100F70C7D /* FirstViewController.m */,
+				CE893E7D1560CCF100F70C7D /* first.png */,
+				CE893E7F1560CCF100F70C7D /* first@2x.png */,
+				CE893E811560CCF100F70C7D /* SecondViewController.h */,
+				CE893E821560CCF100F70C7D /* SecondViewController.m */,
+				CE893E841560CCF100F70C7D /* second.png */,
+				CE893E861560CCF100F70C7D /* second@2x.png */,
+				CE893E881560CCF100F70C7D /* FirstViewController.xib */,
+				CE893E8B1560CCF100F70C7D /* SecondViewController.xib */,
+				CE893E6F1560CCF100F70C7D /* Supporting Files */,
+			);
+			path = sublimeclang;
+			sourceTree = "<group>";
+		};
+		CE893E6F1560CCF100F70C7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE893E701560CCF100F70C7D /* sublimeclang-Info.plist */,
+				CE893E711560CCF100F70C7D /* InfoPlist.strings */,
+				CE893E741560CCF100F70C7D /* main.m */,
+				CE893E761560CCF100F70C7D /* sublimeclang-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE893E631560CCF100F70C7D /* sublimeclang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE893E901560CCF100F70C7D /* Build configuration list for PBXNativeTarget "sublimeclang" */;
+			buildPhases = (
+				CE893E601560CCF100F70C7D /* Sources */,
+				CE893E611560CCF100F70C7D /* Frameworks */,
+				CE893E621560CCF100F70C7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sublimeclang;
+			productName = sublimeclang;
+			productReference = CE893E641560CCF100F70C7D /* sublimeclang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE893E5B1560CCF100F70C7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "The Superformula";
+			};
+			buildConfigurationList = CE893E5E1560CCF100F70C7D /* Build configuration list for PBXProject "sublimeclang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE893E591560CCF100F70C7D;
+			productRefGroup = CE893E651560CCF100F70C7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE893E631560CCF100F70C7D /* sublimeclang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE893E621560CCF100F70C7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE893E731560CCF100F70C7D /* InfoPlist.strings in Resources */,
+				CE893E7E1560CCF100F70C7D /* first.png in Resources */,
+				CE893E801560CCF100F70C7D /* first@2x.png in Resources */,
+				CE893E851560CCF100F70C7D /* second.png in Resources */,
+				CE893E871560CCF100F70C7D /* second@2x.png in Resources */,
+				CE893E8A1560CCF100F70C7D /* FirstViewController.xib in Resources */,
+				CE893E8D1560CCF100F70C7D /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE893E601560CCF100F70C7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE893E751560CCF100F70C7D /* main.m in Sources */,
+				CE893E791560CCF100F70C7D /* AppDelegate.m in Sources */,
+				CE893E7C1560CCF100F70C7D /* FirstViewController.m in Sources */,
+				CE893E831560CCF100F70C7D /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE893E711560CCF100F70C7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE893E721560CCF100F70C7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE893E881560CCF100F70C7D /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE893E891560CCF100F70C7D /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		CE893E8B1560CCF100F70C7D /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE893E8C1560CCF100F70C7D /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE893E8E1560CCF100F70C7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE893E8F1560CCF100F70C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE893E911560CCF100F70C7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sublimeclang/sublimeclang-Prefix.pch";
+				INFOPLIST_FILE = "sublimeclang/sublimeclang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE893E921560CCF100F70C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sublimeclang/sublimeclang-Prefix.pch";
+				INFOPLIST_FILE = "sublimeclang/sublimeclang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE893E5E1560CCF100F70C7D /* Build configuration list for PBXProject "sublimeclang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE893E8E1560CCF100F70C7D /* Debug */,
+				CE893E8F1560CCF100F70C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE893E901560CCF100F70C7D /* Build configuration list for PBXNativeTarget "sublimeclang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE893E911560CCF100F70C7D /* Debug */,
+				CE893E921560CCF100F70C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE893E5B1560CCF100F70C7D /* Project object */;
+}
